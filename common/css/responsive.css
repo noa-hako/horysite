@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@media(max-width:600px){
+    .pc-view{display: none;}
+    .sp-view{display: block;}
+
+    body{
+        width: 95%;
+    }
+
+    .head-title{
+        text-align: center;
+    }
+
+
+    .movie{
+        width: 100%;
+        height: 280px;
+    }
+
+    .tate{
+        width: 65%;
+        height: 500px;
+    }
+    .maid-icon img{
+        width: 45%;
+    }
+
+}
